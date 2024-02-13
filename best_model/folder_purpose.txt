@@ -1,0 +1,2 @@
+The trained model and CV are saved under this folder.
+In order to avoid issues, we avoided to push the best model parameters to Github.

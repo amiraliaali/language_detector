@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Run Training Script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "language_detection.csv",
+                "best_model/language_detection_model.pkl",
+                "best_model/count_vectorizer.pkl",
+                "1"
+            ]
+        }
+    ]
+}
